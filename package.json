@@ -19,7 +19,7 @@
   "peerDependencies": {
     "@vgPdf/vg-drawing": "^1.2.0",
     "@vgPdf/vg-file-saver": "^1.0.1",
-    "@vgPdf/vg-react-pdf": "^2.3.2"
+    "@vgPdf/vg-react-pdf": "^2.3.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
