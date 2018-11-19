@@ -1,0 +1,61 @@
+{
+  "_from": "github:vg-App/vg-drawing",
+  "_id": "@vgPdf/vg-drawing@1.5.7",
+  "_inBundle": false,
+  "_location": "/@vgPdf/vg-drawing",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@vgPdf/vg-drawing@github:vg-App/vg-drawing",
+    "name": "@vgPdf/vg-drawing",
+    "escapedName": "@vgPdf%2fvg-drawing",
+    "scope": "@vgPdf",
+    "rawSpec": "github:vg-App/vg-drawing",
+    "saveSpec": "github:vg-App/vg-drawing",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:vg-App/vg-drawing#9bd69e54d80aca58da44e3bc6cf5d91a5153e34e",
+  "_spec": "@vgPdf/vg-drawing@github:vg-App/vg-drawing",
+  "_where": "/home/akatarachias/Desktop/payHafF",
+  "bundleDependencies": false,
+  "dependencies": {
+    "pako": "^1.0.5"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "@types/node": "^8.10.11",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "core-js": "^2.4.1",
+    "cz-conventional-changelog": "^1.1.5",
+    "ghooks": "^1.0.3",
+    "gulp": "3.9.1",
+    "gulp-typescript": "^3.2.2",
+    "semantic-release": "^6.3.6",
+    "typescript": "~2.5.0",
+    "validate-commit-msg": "^1.1.1",
+    "watchify": "^3.9.0"
+  },
+  "es2015": "dist/es2015/main.js",
+  "jsdelivr": "dist/cdn/main.js",
+  "jsnext:main": "dist/es/main.js",
+  "main": "dist/npm/main.js",
+  "module": "dist/es/main.js",
+  "name": "@vgPdf/vg-drawing",
+  "scripts": {
+    "api-check": "gulp api-check",
+    "build-package": "gulp build-module && gulp build-cdn",
+    "e2e": "gulp e2e",
+    "lint": "gulp lint",
+    "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post",
+    "test": "gulp test && gulp test-typings",
+    "verify-npm": "gulp verify-npm"
+  },
+  "typings": "dist/npm/main.d.ts",
+  "unpkg": "dist/cdn/main.js",
+  "version": "1.5.7"
+}
