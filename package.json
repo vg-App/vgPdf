@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@vgPdf/vg-file-saver": "^1.0.1"
+  },
+  "description": "vgReact PDF Processing package",
+  "devDependencies": {
+    "@vgPdf/vg-drawing": "^1.2.0",
+    "@vgPdf/vg-react-grid": "2.3.2",
+    "prop-types": "^15.6.0"
+  },
+  "jsnext:main": "dist/es/main.js",
+  "main": "dist/npm/main.js",
+  "module": "dist/es/main.js",
+  "name": "@vgPdf/vg-react-pdf",
+  "peerDependencies": {
+    "@vgPdf/vg-drawing": "^1.2.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build-package": "gulp build-package",
+    "e2e": "gulp e2e",
+    "start": "gulp start",
+    "test": "cd ../../ && npm run test -- --testPathPattern=/packages/pdf/.*"
+  },
+  "types": "dist/npm/main.d.ts",
+  "version": "2.3.2"
+}
