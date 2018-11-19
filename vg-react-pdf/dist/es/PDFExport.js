@@ -21,8 +21,8 @@ var __extends =
   })()
 import * as React from 'react'
 import * as PropTypes from 'prop-types'
-import { drawDOM, exportPDF } from '@vgPdf/vg-drawing'
-import { saveAs } from '@vgPdf/vg-file-saver'
+import { drawDOM, exportPDF } from '@vgPdf/test/vg-drawing'
+import { saveAs } from '@vgPdf/test/vg-file-saver'
 import { getPageMargin } from './getPageMargin'
 import vgDrawingAdapter from './vgDrawingAdapter'
 /**
