@@ -1,5 +1,5 @@
-import { drawDOM, exportPDF } from '@vgPdf/vg-drawing';
-import { saveAs } from '@vgPdf/vg-file-saver';
+import { drawDOM, exportPDF } from '@vgPdf/test/vg-drawing';
+import { saveAs } from '@vgPdf/test/vg-file-saver';
 import vgDrawingAdapter from './vgDrawingAdapter';
 /**
  * Saves the content of a DOM element to a PDF file.
