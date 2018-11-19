@@ -1,0 +1,38 @@
+{
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "devDependencies": {
+    "@types/jasmine": "2.5.38",
+    "cz-conventional-changelog": "^1.1.5",
+    "ghooks": "^1.0.3",
+    "gulp": "^3.9.0",
+    "semantic-release": "^6.3.6",
+    "validate-commit-msg": "^1.1.1"
+  },
+  "es2015": "dist/es2015/main.js",
+  "jsdelivr": "dist/cdn/main.js",
+  "jsnext:main": "dist/es/main.js",
+  "main": "dist/npm/main.js",
+  "module": "dist/es/main.js",
+  "name": "@vgPdf/vg-file-saver",
+  "release": {
+    "debug": false,
+    "branchTags": {
+      "develop": "dev"
+    },
+    "fallbackTags": {
+      "dev": "latest"
+    }
+  },
+  "scripts": {
+    "build-cdn": "gulp build-cdn",
+    "build-package": "gulp build-module && gulp build-cdn",
+    "lint": "gulp lint",
+    "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post",
+    "test": "gulp test"
+  },
+  "typings": "dist/npm/main.d.ts",
+  "unpkg": "dist/cdn/main.js",
+  "version": "1.0.7"
+}
