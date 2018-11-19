@@ -1,12 +1,10 @@
 {
   "dependencies": {
     "@vgPdf/vg-file-saver": "^1.0.1",
-    "@vgPdf/vg-drawing": "^1.2.0",
     "@vgPdf/vg-react-pdf": "^2.3.2"
   },
   "description": "vgReact PDF Processing package",
   "devDependencies": {
-    "@vgPdf/vg-drawing": "^1.2.0",
     "@vgPdf/vg-react-grid": "2.3.2",
     "prop-types": "^15.6.0",
     "@vgPdf/vg-file-saver": "^1.0.1",
@@ -17,7 +15,6 @@
   "module": "dist/es/main.js",
   "name": "@vgPdf/vg-react-pdf",
   "peerDependencies": {
-    "@vgPdf/vg-drawing": "^1.2.0",
     "@vgPdf/vg-file-saver": "^1.0.1",
     "@vgPdf/vg-react-pdf": "^2.3.2",
     "react": "^16.0.0",
