@@ -15,7 +15,7 @@
   "jsnext:main": "dist/es/main.js",
   "main": "dist/npm/main.js",
   "module": "dist/es/main.js",
-  
+  "name": "@vgPdf/test",
   "peerDependencies": {
     "@vgPdf/vg-file-saver": "^1.0.1",
     "@vgPdf/vg-react-pdf": "^2.3.2",
