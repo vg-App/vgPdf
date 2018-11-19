@@ -1,9 +1,5 @@
 {
-  "dependencies": {
-    "@vgPdf/vg-file-saver": "^1.0.1",
-    "@vgPdf/vg-react-pdf": "^2.3.2"
- 
-  },
+  
   "description": "vgReact PDF Processing package",
   "devDependencies": {
     "@vgPdf/vg-react-grid": "2.3.2",
